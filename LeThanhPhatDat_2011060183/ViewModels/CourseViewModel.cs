@@ -21,6 +21,10 @@ namespace LeThanhPhatDat_2011060183.ViewModels
         [Required]
         public byte Category { get; set; }
         public IEnumerable<Category>Categories { get; set; }
+        
+        public IEnumerable<Course> UpcommingCourses { get; set; }
+        public bool ShowAction { get; set; }
+
         public DateTime GetDateTime ()
         {
             
